@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @schedule.name %>
+</p>
+
+<p>
+  <b>Mwf1:</b>
+  <%= @schedule.mwf1 %>
+</p>
+
+<p>
+  <b>Mwf2:</b>
+  <%= @schedule.mwf2 %>
+</p>
+
+<p>
+  <b>Mwf3:</b>
+  <%= @schedule.mwf3 %>
+</p>
+
+<p>
+  <b>Tth1:</b>
+  <%= @schedule.tth1 %>
+</p>
+
+<p>
+  <b>Tth2:</b>
+  <%= @schedule.tth2 %>
+</p>
+
+<p>
+  <b>Tth3:</b>
+  <%= @schedule.tth3 %>
+</p>
+
+
+<%= link_to 'Edit', edit_schedule_path(@schedule) %> |
+<%= link_to 'Back', schedules_path %>
